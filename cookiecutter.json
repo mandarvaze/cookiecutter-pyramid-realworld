@@ -1,0 +1,6 @@
+{
+    "project_name": "Pyramid RealApp Boilerplate",
+    "project_short_name": "realapp",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}"
+}
+
