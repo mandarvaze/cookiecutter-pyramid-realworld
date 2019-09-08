@@ -8,10 +8,11 @@ The Pyramid Realworld Example App has gone to great lengths to adhere to the **P
 
 # Getting started
 
-You need to have docker, [pipenv](https://pipenv.readthedocs.io/) and Python 3.7 installed on your machine. Docker should be running. Then you can run:
+You need to have [cookicutter](https://pypi.python.org/pypi/cookiecutter), docker, [pipenv](https://pipenv.readthedocs.io/) and Python 3.7 installed on your machine. Docker should be running. Then you can run:
 
 ``` shell
-$ cd <your_new_project>
+$ cookiecutter https://github.com/mandarvaze/cookiecutter-pyramid-realworld
+$ cd <project_slug>
 $ git init
 $ make install
 $ pipenv install -e .
