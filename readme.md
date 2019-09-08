@@ -1,8 +1,8 @@
 # Cookiecutter Template for realworld app
 
-This template is based on [Pyramid Realworld Example App]((https://github.com/niteoweb/pyramid-realworld-example-app)
+This template is based on [Pyramid Realworld Example App](https://github.com/niteoweb/pyramid-realworld-example-app)
 
-The Pyramid Realworld Example App has gone to great lengths to adhere to the **Pyramid** community styleguides & best practices. But using it as github scaffold/template for your next Pyramid project meant after you've created your project, you need to go and **remove** lot of unwanted code (Not every app has articles and comments). It also means you need to replace (at least) conduit with your own project name. cookiecutter approach helps with the second issue.
+The Pyramid Realworld Example App has gone to great lengths to adhere to the **Pyramid** community styleguides & best practices. But using it as github scaffold/template for your next Pyramid project meant after you've created your project, you need to go and **remove** lot of unwanted code (Not every app has articles and comments). It also means you need to replace (at least) `conduit` (and `Conduit`) with your own project name. cookiecutter approach helps with the second issue.
 
 **Please star the original [Pyramid Realworld Example App](https://github.com/niteoweb/pyramid-realworld-example-app) repo.**
 
