@@ -72,7 +72,9 @@ def main(global_config: t.Dict[str, str], **settings: str) -> Router:
     # Configure Pyramid
     # TODO: can we configure root_factory in auth.py?
     # config.set_root_factory(root_factory) maybe?
-    config = Configurator(settings=settings, root_factory="{{cookiecutter.project_slug}}.auth.RootFactory")
+    config = Configurator(
+        settings=settings, root_factory="{{cookiecutter.project_slug}}.auth.RootFactory"
+    )
     configure(config)
 
     # Up, Up and Away!

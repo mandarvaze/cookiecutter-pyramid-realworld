@@ -7,11 +7,11 @@ info:
   version: 1.0.0
   title: {{cookiecutter.project_name}} API
   contact:
-    name: RealWorld
-    url: https://realworld.io
+    name: {{cookiecutter.project_name}}
+    url: 
   license:
-    name: MIT License
-    url: https://opensource.org/licenses/MIT
+    name: 
+    url: 
 paths:
   /users/login:
     post:

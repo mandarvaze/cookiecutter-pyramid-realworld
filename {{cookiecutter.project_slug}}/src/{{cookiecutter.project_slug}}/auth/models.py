@@ -19,7 +19,6 @@ from sqlalchemy.orm.session import Session
 
 import typing as t
 
-
 __all__ = ["User"]
 
 
@@ -30,13 +29,6 @@ class LowerCaseString(TypeDecorator):
 
     def process_bind_param(self, value: str, dialect: PGDialect_psycopg2):
         return value.lower()
-
-
-favorites = Table(
-    "favorites",
-    Base.metadata,
-    Column("user_id", UUID(as_uuid=True), ForeignKey("users.id"), nullable=False),
-)
 
 
 @model_config(Base)
