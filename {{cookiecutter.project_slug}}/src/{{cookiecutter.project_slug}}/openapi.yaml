@@ -8,10 +8,10 @@ info:
   title: {{cookiecutter.project_name}} API
   contact:
     name: {{cookiecutter.project_name}}
-    url: 
+    url: Project URL (Optional)
   license:
-    name: 
-    url: 
+    name: License Name
+    url: License URL (Optional)
 paths:
   /users/login:
     post:
