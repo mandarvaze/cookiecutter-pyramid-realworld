@@ -1,8 +1,6 @@
 """Tests for profile views."""
 
-from {{cookiecutter.project_slug}}.auth.models import User
 from {{cookiecutter.project_slug}}.auth.tests.test_auth_views import USER_ONE_JWT
-from sqlalchemy.orm.session import Session
 from webtest import TestApp
 
 

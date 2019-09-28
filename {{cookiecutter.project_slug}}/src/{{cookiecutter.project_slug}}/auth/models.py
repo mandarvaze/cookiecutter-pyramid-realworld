@@ -7,14 +7,10 @@ from pyramid_deferred_sqla import Base
 from pyramid_deferred_sqla import Model
 from pyramid_deferred_sqla import model_config
 from sqlalchemy import Column
-from sqlalchemy import ForeignKey
 from sqlalchemy import String
-from sqlalchemy import Table
 from sqlalchemy import TypeDecorator
 from sqlalchemy import Unicode
-from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy.dialects.postgresql.psycopg2 import PGDialect_psycopg2
-from sqlalchemy.orm import relationship
 from sqlalchemy.orm.session import Session
 
 import typing as t

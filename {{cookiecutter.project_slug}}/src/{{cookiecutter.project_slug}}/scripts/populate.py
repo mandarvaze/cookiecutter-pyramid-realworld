@@ -5,7 +5,6 @@ verify support for non-ascii inputs.
 """
 
 from {{cookiecutter.project_slug}}.auth.models import User
-from datetime import datetime
 from pyramid.paster import bootstrap
 from pyramid.paster import setup_logging
 from sqlalchemy.orm.session import Session
