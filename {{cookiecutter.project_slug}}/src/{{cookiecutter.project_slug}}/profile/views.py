@@ -25,3 +25,4 @@ def profile(request: Request) -> ProfileResponse:
         )
     )
     return {"profile": profile}
+

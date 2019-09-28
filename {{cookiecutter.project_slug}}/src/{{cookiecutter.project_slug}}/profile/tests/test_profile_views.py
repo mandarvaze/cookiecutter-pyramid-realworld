@@ -17,3 +17,4 @@ def test_get_profile(testapp: TestApp, democontent: None) -> None:
     assert res.json == {
         "profile": {"username": "two", "bio": None, "image": None}
     }
+

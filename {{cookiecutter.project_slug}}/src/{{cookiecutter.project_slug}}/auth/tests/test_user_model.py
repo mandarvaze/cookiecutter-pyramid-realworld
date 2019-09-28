@@ -39,3 +39,4 @@ def test_verify_password(db: Session, democontent: None) -> None:
     user = User.by_username("one", db)
     assert user.verify_password("secret")  # type: ignore
     assert not user.verify_password("invalid")  # type: ignore
+
